@@ -146,3 +146,21 @@ background: url(../img/loader.gif) center center no-repeat;
 	border-top: 2px solid #8c8b8b;
 }
 
+.bottomFooterPart {
+    padding-top: 20px;
+    background-color: black;
+color: white;
+}
+ul {
+    list-style-type: none;
+}
+ b {
+    text-decoration: underline;
+    text-decoration-color: white;
+
+
+
+}
+
+
+
