@@ -142,8 +142,17 @@ background: url(../img/loader.gif) center center no-repeat;
 
 
 }
+.container-fluid {
+    width: 80%;  
+}
+h3 {
+    padding: 2px;
+text-decoration: underline;  
+text-decoration-color: #ffae00ef;  
+}
 .hr{
-	border-top: 2px solid #8c8b8b;
+    border-top: 2px solid #8c8b8b;
+    width: 80%;
 }
 
 .bottomFooterPart {
@@ -157,8 +166,6 @@ ul {
  b {
     text-decoration: underline;
     text-decoration-color: white;
-
-
 
 }
 
