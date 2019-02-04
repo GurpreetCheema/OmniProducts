@@ -17,7 +17,7 @@ body{
 /*-------------- Slide on the side------------------*/
 
 .slides-navigation{
-    z-index: 6;
+    z-index: 11;
 }
 .slides-navigation  .prev,
 .slides-navigation .next{
@@ -87,7 +87,7 @@ text-align: center;
 
 
 #navigation {
-background-color:#989599;
+background-color:black;
 padding: 20px 10px;
 z-index: 100;
 width:2000px;
@@ -173,7 +173,10 @@ div#tabs p.tab2:target {
 div#tabs p.tab3:target {
     display:block;
 }
-
+#tab1 {
+    border: #333;
+    text-decoration: bisque;
+}
 
 .button {
     background-color: rgb(240, 224, 0);
@@ -207,4 +210,38 @@ bottom: 0;
 
 .navbar-brand {
     margin-left: 22px;
+}
+
+
+#tabs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+#tabs a {
+    text-decoration: none;
+    display: block;
+    background: #eee;
+    padding: 12px;
+    color: #00c;
+    width: 8em;
+    text-align: center;
+}
+
+#tabs a:hover {
+    background: pink;
+}
+
+#tabs #selected {
+    border-color:pink;
+}
+
+#tabs #selected a {
+    position: relative;
+    top: 1px;
+    background: white;
+    color: black;
+    font-weight: bold;
 }
