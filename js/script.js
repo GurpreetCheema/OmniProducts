@@ -48,3 +48,6 @@ $(document).ready(function () {
 function openLearnMore() {
     window.open("https://robocop.fandom.com/wiki/Omni_Consumer_Products");
 }
+$( function() {
+    $( "#tabs" ).tabs();
+  } );
