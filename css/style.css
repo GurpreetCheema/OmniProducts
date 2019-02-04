@@ -141,8 +141,10 @@ border-top: 5px solid darkorange;
 
 
 }
-.hr{
-    border-top: 5px solid #8c8b8b;
+.hr2 {
+    margin-top: 70px;
+    padding: 5px;
+    border-top: 1px solid #8c8b8b;
     width: 80%;
 }
 
@@ -171,7 +173,13 @@ div#tabs p.tab3:target {display:block;}
 
 }
 
-.sr-only {
-    margin-right: 22px;
-}
 
+.footer  {
+color:#FFDAB9;
+text-align: center;
+background-color: black;
+width: 100%;
+left: 0;
+bottom: 0;
+
+}
