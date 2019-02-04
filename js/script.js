@@ -24,9 +24,7 @@ $(document).ready(function () {
         if ($(window).scrollTop() >= navTop) {
             body.css("padding-top", nav.outerHeight() + "px");
             body.addClass("fixedNav");
-        }
-
-        else {
+        } else {
             body.css("padding-top", 0);
             body.navClass("fixedNav");
         }
@@ -46,3 +44,7 @@ $(document).ready(function () {
 
 
 });
+
+function openLearnMore() {
+    window.open("https://robocop.fandom.com/wiki/Omni_Consumer_Products");
+}
